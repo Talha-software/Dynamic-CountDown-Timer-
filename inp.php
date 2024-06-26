@@ -36,7 +36,7 @@ if ($difference > 0) {
             <div><?php echo $day . 'd ' . $hour . 'h ' . $minute . 'm ' . $second . 's'; ?></div>
             <div>until the event occurs</div>
         <?php else: ?>
-            <div>The event has already occurred.</div>
+            <div>The event had occurred.</div>
         <?php endif; ?>
     <form action="index.php" method="get">
         <input type="submit" name="reset" value="Reset">
