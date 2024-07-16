@@ -43,8 +43,6 @@ if ($difference > 0) {
     </form> 
     <?php
     if (isset($_GET['reset'])){
-// Handle reset logic here if needed
-// Redirect to another page
 header("Location: index.php");
 exit();
     }
